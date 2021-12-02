@@ -1,0 +1,19 @@
+import sys
+def decrypt(stringbin1,xorKeybin1):
+    
+	length = len(stringbin1);
+	lengthk=len(xorKeybin1);
+	for i in range(length):
+		stringbin1 = (stringbin1[:i]
+			 + chr(ord(stringbin1[i]) ^ ord(xorKeybin1[i%lengthk])) 
+			 	+stringbin1[i + 1:]);
+	return stringbin1;
+
+f = open(sys.argv[1], 'r')
+String = f.read();
+f.close();
+xorKey=sys.argv[2];
+String=decrypt(String,xorKey);
+f = open(sys.argv[3], 'w')
+f.write(String)
+f.close()
