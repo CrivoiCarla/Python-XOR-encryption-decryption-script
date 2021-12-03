@@ -5,10 +5,10 @@ Python encrypt.py/decrypt.py scripts that take a key and a command line as a par
 * Cucoș Maria-Marianita
 * Nechita Maria-Ilinca
 # Running methods
-Script encryption :
-* python encrypt password input.txt output
-Script decryption :
-* python decrypt output password input_recuperat.txt
+* Script encryption :
+python encrypt password input.txt output
+* Script decryption :
+python decrypt output password input_recuperat.txt
 # Documentation
 * https://www.geeksforgeeks.org/python-sys-module/
 * https://www.geeksforgeeks.org/convert-binary-to-string-using-python/
