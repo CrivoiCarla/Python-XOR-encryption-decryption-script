@@ -20,3 +20,7 @@ The decoding is displayed in the file indicated on the command line.
 * https://www.geeksforgeeks.org/xor-cipher/
 * https://samsclass.info/124/proj14/VPxor.htm
 * https://youtu.be/PZtei6ijmSY
+# Partea 1
+*Numele echipei : Ethical Hacker
+*Numele echipei adverse : ASCProiect
+*Parola echipei adverse : proiectuni
