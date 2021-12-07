@@ -24,4 +24,4 @@ The decoding is displayed in the file indicated on the command line.
 * Numele echipei : Ethical Hacker
 * Numele echipei adverse : ASCProiect
 * Parola echipei adverse : proiectuni
-* Mod de lucru : Am folosit operatia xor intre elementul de pe pozitia i din textul input si elementul de pe pozitia i din textul output, astfel obtinand cheia de mai multe ori. Am refolosit algoritmul de criptare din partea 0 a proiectului cu usoare modificari ( in loc de cheie, s-a folosit textul din output).
+* Mod de lucru : Am folosit operatia xor intre elementul de pe pozitia i din textul input si elementul de pe pozitia i din textul output, astfel obtinandu-se cheia concatena cu ea insasi de mai multe ori (+ posibil inca o parte din ea). Am refolosit algoritmul de criptare din partea 0 a proiectului cu usoare modificari ( in loc de cheie, s-a folosit textul din output).
