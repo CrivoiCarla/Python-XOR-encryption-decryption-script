@@ -1,0 +1,22 @@
+import sys
+
+def encrypt(stringbin1,xorKeybin1):
+
+	length = len(stringbin1);
+	#lengthk=len(xorKeybin1);
+	for i in range(length):
+		stringbin1 = (stringbin1[:i]
+			 + chr(ord(stringbin1[i]) ^ ord(xorKeybin1[i])) 
+			 	+stringbin1[i + 1:]);
+	return stringbin1;
+    
+f = open(sys.argv[1] , 'r')
+out1 = f.read();
+f.close();
+f = open(sys.argv[2] , 'r')
+in1 = f.read();
+f.close()
+xorKey= encrypt(in1, out1);
+f = open(sys.argv[3], 'w')
+f.write(xorKey)
+f.close()
